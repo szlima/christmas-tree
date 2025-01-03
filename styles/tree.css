@@ -12,6 +12,8 @@
     z-index: 1;
 }
 
+/* --------------------------- */
+
 .pot{
     position: absolute;
     bottom: -10%;
@@ -45,4 +47,57 @@
     height: .5rem;
 
     background-color: var(--green);
+}
+
+/* --------------------------- */
+
+.branches{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    border-bottom: 10rem solid var(--green);
+    border-left: var(--width-branches) solid transparent;
+    border-right: var(--width-branches) solid transparent;
+
+    border-radius: 50%;
+}
+
+.branches--level-1{
+    bottom: 10%;
+}
+
+.branches--level-2{
+    bottom: 20%;
+    --width-branches: 18rem;
+}
+
+.branches--level-3{
+    bottom: 30%;
+    --width-branches: 16rem;
+}
+
+.branches--level-4{
+    bottom: 40%;
+    --width-branches: 14rem;
+}
+
+.branches--level-5{
+    bottom: 50%;
+    --width-branches: 12rem;
+}
+
+.branches--level-6{
+    bottom: 60%;
+    --width-branches: 10rem;
+}
+
+.branches--level-7{
+    bottom: 70%;
+    --width-branches: 8rem;
+}
+
+.branches--level-8{
+    bottom: 80%;
+    --width-branches: 6rem;
 }
