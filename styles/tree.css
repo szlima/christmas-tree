@@ -11,3 +11,38 @@
     
     z-index: 1;
 }
+
+.pot{
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: 5rem;
+    height: 6rem;
+
+    background-color: var(--red);
+}
+
+.pot::before,
+.pot::after{
+    content: "";
+    position: absolute;
+
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.pot::before{
+    bottom: -10%;
+    height: 1rem;
+
+    background-color: var(--red);
+}
+
+.pot::after{
+    top: -4%;
+    height: .5rem;
+
+    background-color: var(--green);
+}
