@@ -1,0 +1,13 @@
+
+.tree{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: .5rem;
+    height: 70%;
+    background-color: var(--brown);
+    
+    z-index: 1;
+}
