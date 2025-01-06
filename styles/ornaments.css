@@ -32,3 +32,66 @@
     border-radius: 50%;
     border-bottom: 5px dotted var(--yellow);
 }
+
+/* --------------------------- */
+
+.light{
+    position: absolute;
+    transform: translate(-50%);
+
+    width: .3rem;
+    height: .3rem;
+    border-radius: 50%;
+
+    background-color: var(--yellow-2);
+    animation: blinking-lights .1s linear infinite alternate;
+}
+
+.light--bottom-left{
+    bottom: -9rem;
+    left: calc(-1 * var(--width-branches) / 4);
+}
+
+.light--top-left{
+    bottom: -7rem;
+    left: calc(-1 * var(--width-branches) / 2);
+}
+
+.light--center{
+    bottom: -9rem;
+    left: 50%;
+}
+
+.light--bottom-right{
+    bottom: -9rem;
+    left: calc(var(--width-branches) / 4);
+}
+
+.light--top-right{
+    bottom: -7rem;
+    left: calc(var(--width-branches) / 2);
+}
+
+.light--last-layer-left{
+    bottom: -4rem;
+    left: calc(-1 * var(--width-branches) / 5);
+}
+
+.light--last-layer-center{
+    bottom: -6rem;
+    left: 50%;
+}
+
+.light--last-layer-right{
+    bottom: -4rem;
+    left: calc(var(--width-branches) / 5);
+}
+
+@keyframes blinking-lights{
+    from {
+        background-color: var(--yellow-2);
+    } to {
+        background-color: var(--yellow-3);
+        box-shadow: 0 0 .7rem .2rem var(--yellow-4);
+    }
+}
