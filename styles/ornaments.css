@@ -9,6 +9,7 @@
     border-radius: 50%;
 
     background-color: var(--red-2);
+    z-index: 1;
 }
 
 .ball--left{
@@ -17,4 +18,17 @@
 
 .ball--right{
     left: calc(3 * var(--width-branches) / 4);
+}
+
+/* --------------------------- */
+
+.mini-balls{
+    position: absolute;
+    bottom: -8rem;
+    transform: translate(-50%);
+
+    width: calc(1.4 * var(--width-branches));
+    height: 2rem;
+    border-radius: 50%;
+    border-bottom: 5px dotted var(--yellow);
 }
