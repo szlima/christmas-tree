@@ -30,7 +30,7 @@
     width: calc(1.4 * var(--width-branches));
     height: 2rem;
     border-radius: 50%;
-    border-bottom: 5px dotted var(--color-yellow-1);
+    border-bottom: .4rem dotted var(--color-yellow-1);
 }
 
 /* --------------------------- */
