@@ -10,7 +10,7 @@ body{
     width: 100%;
     height: 100%;
 
-    background-color: var(--white-2);    
+    background-color: var(--color-white-2);
 }
 
 .room::before,
@@ -25,15 +25,15 @@ body{
     top: 0;
     height: 70%;
 
-    background-color: var(--white-3);
+    background-color: var(--color-white-3);
 }
 
 .room::after{
     top: 70%;
     height: 5%;
 
-    background-color: var(--white-2);
-    box-shadow: 0 1px 1px 1px var(--black-2);
+    background-color: var(--color-white-2);
+    box-shadow: 0 1px 1px 1px var(--color-black-2);
 }
 
 
@@ -44,6 +44,6 @@ body{
     }
 
     .room{
-        border: 3px solid var(--black-1);
+        border: 3px solid var(--color-black-1);
     }
 }

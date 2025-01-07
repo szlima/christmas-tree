@@ -8,7 +8,7 @@
     height: 2rem;
     border-radius: 50%;
 
-    background-color: var(--red-2);
+    background-color: var(--color-red-2);
     z-index: 1;
 }
 
@@ -30,7 +30,7 @@
     width: calc(1.4 * var(--width-branches));
     height: 2rem;
     border-radius: 50%;
-    border-bottom: 5px dotted var(--yellow);
+    border-bottom: 5px dotted var(--color-yellow-1);
 }
 
 /* --------------------------- */
@@ -43,7 +43,7 @@
     height: .3rem;
     border-radius: 50%;
 
-    background-color: var(--yellow-2);
+    background-color: var(--color-yellow-2);
     animation: blinking-lights .1s linear infinite alternate;
 }
 
@@ -89,10 +89,10 @@
 
 @keyframes blinking-lights{
     from {
-        background-color: var(--yellow-2);
+        background-color: var(--color-yellow-2);
     } to {
-        background-color: var(--yellow-3);
-        box-shadow: 0 0 .7rem .2rem var(--yellow-4);
+        background-color: var(--color-yellow-3);
+        box-shadow: 0 0 .7rem .2rem var(--color-yellow-4);
     }
 }
 
@@ -105,7 +105,7 @@
 
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
-    border-bottom: 2rem solid var(--yellow-5);
+    border-bottom: 2rem solid var(--color-yellow-5);
 }
 
 .star::before,
@@ -122,14 +122,14 @@
     transform: translate(-50%) rotate(-15deg);
 
     border-left: 3rem solid transparent;
-    border-right: 3rem solid var(--yellow-5);
+    border-right: 3rem solid var(--color-yellow-5);
 }
 
 .star::after{
     left: 2rem;
     transform: translate(-50%) rotate(15deg);
 
-    border-left: 3rem solid var(--yellow-5);
+    border-left: 3rem solid var(--color-yellow-5);
     border-right: 3rem solid transparent;
 }
 
@@ -142,17 +142,17 @@
     height: 1px;
     border-radius: 50%;
 
-    box-shadow: 0 0 3rem 2.5rem var(--yellow-8);
+    box-shadow: 0 0 3rem 2.5rem var(--color-yellow-8);
     animation: shining-star 3s linear infinite alternate;
     z-index: 1;
 }
 
 @keyframes shining-star{
     0% {
-        box-shadow: 0 0 3rem 2.5rem var(--yellow-6);
+        box-shadow: 0 0 3rem 2.5rem var(--color-yellow-6);
     } 20% {
-        box-shadow: 0 0 3rem 2.5rem var(--yellow-7);
+        box-shadow: 0 0 3rem 2.5rem var(--color-yellow-7);
     } 100% {
-        box-shadow: 0 0 3rem 2.5rem var(--yellow-8);
+        box-shadow: 0 0 3rem 2.5rem var(--color-yellow-8);
     }
 }

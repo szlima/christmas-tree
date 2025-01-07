@@ -7,7 +7,7 @@
 
     width: .5rem;
     height: 70%;
-    background-color: var(--brown);
+    background-color: var(--color-brown);
     
     z-index: 1;
 }
@@ -23,7 +23,7 @@
     width: 5rem;
     height: 6rem;
 
-    background-color: var(--red);
+    background-color: var(--color-red-1);
 }
 
 .pot::before,
@@ -39,14 +39,14 @@
     bottom: -10%;
     height: 1rem;
 
-    background-color: var(--red);
+    background-color: var(--color-red-1);
 }
 
 .pot::after{
     top: -4%;
     height: .5rem;
 
-    background-color: var(--green);
+    background-color: var(--color-green);
 }
 
 /* --------------------------- */
@@ -56,7 +56,7 @@
     left: 50%;
     transform: translate(-50%);
 
-    border-bottom: 10rem solid var(--green);
+    border-bottom: 10rem solid var(--color-green);
     border-left: var(--width-branches) solid transparent;
     border-right: var(--width-branches) solid transparent;
 
