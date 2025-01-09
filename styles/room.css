@@ -50,3 +50,24 @@
 
     background-color: var(--color-brown-2);
 }
+
+/* --------------------------- */
+
+.tinsel{
+    position: absolute;
+    top: -10%;
+
+    width: 50%;
+    height: 20%;
+    border-radius: 50%;
+
+    border-bottom: 1rem double var(--color-red-2);
+}
+
+.tinsel--left{
+    left: 0;
+}
+
+.tinsel--right{
+    right: 0;
+}
